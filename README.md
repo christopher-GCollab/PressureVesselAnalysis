@@ -4,7 +4,13 @@ A simple python based tool for pressure vessel analyis.
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+The analysis formulas and fundamental principles are based on Roark's Formulas for Stress & Strain. 
+
+This tool considers three geometries: plates/endcaps, spheres and cylindrical enclosures.
+
+## Output
+
+* Cylindrical enclosure failure depth vs wall thickness.
 
 ## Getting Started
 
