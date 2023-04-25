@@ -32,7 +32,7 @@ python mainPlotter.py
 Contributors names and contact info
 
 ex. Simon D
-ex. [@DomPizzie](dowdc.simon@gmail.com)
+ex. [@SimonD](dowdc.simon@gmail.com)
 
 ## Version History
 
