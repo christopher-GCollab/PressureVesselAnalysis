@@ -16,40 +16,25 @@ This tool considers three geometries: plates/endcaps, spheres and cylindrical en
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
-
-### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* Python 3.9
+** Matplotlib
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
+* Install python 3.9 and dependancies
+* Run mainPlotter.py
 ```
-code blocks for commands
-```
-
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
+python mainPlotter.py
 ```
 
 ## Authors
 
 Contributors names and contact info
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+ex. Simon D
+ex. [@DomPizzie](dowdc.simon@gmail.com)
 
 ## Version History
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
 * 0.1
-    * Initial Release
+    * Initial development
