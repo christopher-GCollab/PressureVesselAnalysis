@@ -12,6 +12,11 @@ This tool considers three geometries: plates/endcaps, spheres and cylindrical en
 
 * Cylindrical enclosure failure depth vs wall thickness.
 
+# Code pineline
+<img width="1163" alt="image" src="https://user-images.githubusercontent.com/62829063/234169486-124e0860-6fb4-447c-b3f8-7a2999761541.png">
+
+# Analysis Formula
+
 ## Getting Started
 
 ### Dependencies
