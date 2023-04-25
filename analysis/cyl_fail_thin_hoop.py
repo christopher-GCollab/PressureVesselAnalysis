@@ -17,4 +17,7 @@
 # Outputs: 
 #   Maximum/failure pressure of thin wall hoop stress, q_hoop_thin (Pa)
 
-q_hoop_thin = Q .* t_cyl ./ r;
+def get_fail_thin_hoop (Q, t_cyl, r):
+    q_hoop_thin = Q * t_cyl / r
+
+    return q_hoop_thin

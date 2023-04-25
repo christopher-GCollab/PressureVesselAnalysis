@@ -19,5 +19,7 @@
 #   Poisson's ratio, nu
 # Outputs: 
 #   buckling pressure, q_buckling [Pa]
-
-q_buckling = (E .* t_cyl./r)./(1.+0.5.*(pi.*r./(n.*l)).^2).*(1./(n.^2.*(1.+(n.*l./(pi.*r)).^2).^2)+n.^2.*t_cyl.^2./(12.*r.^2.*(1.-nu.^2)).*(1.+(pi.*r./(n.*l)).^2).^2);
+def get_fail_thin_buckling(r, t_cyl, n, l, E, nu):
+    q_buckling = (E * t_cyl / r) / (1. + 0.5  * (pi * r / (n * l))^2) * (1 / (n^2 (1 + (n * l /(pi * r))^2)^2) + n^2. * t_cyl^2 / (12 * r^2. * (1 - nu^2) ) * (1. + (pi * r / (n * l) )^2)^2)
+    
+    return q_buckling

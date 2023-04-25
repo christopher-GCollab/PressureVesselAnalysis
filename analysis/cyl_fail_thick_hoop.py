@@ -16,5 +16,7 @@
 #   Thickness, t_cyl [m]
 # Outputs: 
 #   Maximum/failure pressure of thick wall hoop stress, q_hoop_thick (Pa)
+def get_fail_thick_hoop (Q, r, t_cyl):
+    q_hoop_thick = Q * ((r + t_cyl)^2 - r^2) / (2 * (r + t_cyl)^2)
 
-q_hoop_thick = Q .* ((r + t_cyl).^2 - r.^2) ./ (2 .* (r + t_cyl).^2);
+    return q_hoop_thick    
